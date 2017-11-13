@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './components/app';
+import Letter from './components/Letter';
 
 
-console.log("bald");
 
 // Render application to DOM
+
 ReactDOM.render(
-    <App />,
-    document.getElementById('app')
+    <div>
+      <Letter bgcolor="#00BFFF">A</Letter>
+      <Letter bgcolor="#FF605F">E</Letter>
+      <Letter bgcolor="#FFD52E">I</Letter>
+      <Letter bgcolor="#49DD8E">O</Letter>
+      <Letter bgcolor="#AE99FF">U</Letter>
+    </div>,
+    document.getElementById("react-container")
 );

@@ -28,7 +28,7 @@ module.exports = {
         host: process.env.IP,
         //https: true,
         port: process.env.PORT,
-        "public":"web-learn-clintwine.c9users.io"
+        "public":"html-test-clintwine.c9users.io"
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin()
